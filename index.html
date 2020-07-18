@@ -1,0 +1,1941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+img
+{
+    cursor: pointer;
+    height:175px;
+    width:280px;
+    
+} -->
+
+    </style>
+    <script>
+          
+        //Chapter 1:
+        //1
+        // alert("welcome to our page");
+        // //2
+        // alert("Please enter a valid email address");
+        // //3
+        // alert("Welcome to JS Land... \n Happy Coding!");
+        // //4
+        // alert("Welcome to JS Land");
+        // alert("Happy Coding!");
+        // //5 (In console browser write:)
+        // //console.log(alert("Hello I can use JS through my web browser"));
+        //6
+       // alert("Before Html Body Content section Alert");
+        //chapter 1 finished 
+
+
+        //CHAPTER:2
+        // var userName;
+        // var myName="Rabat Shahid";
+        // var message="Hello World";
+        // var age=23;
+        // alert(message);
+        // alert(myName);
+        // alert(age);
+        // alert("Certified Mobile development");
+        // //5
+//         var word="Pizza";
+//         alert(word+"\n"+word.slice(0,word.length-1)+"\n"+word.slice(0,word.length-2)+"\n"+word.slice(0,word.length-3)+"\n"+word.slice(0,word.length-4));
+//    //6
+//    var email="rabatshaid@gmail.com";
+//    alert("Welcome to email "+email);
+//    //7
+//    var book="A smart way to learn";
+//    alert("I am trying to learn from book "+book);
+//    //8
+//    function myFunction() {
+//   document.getElementById("pa1").innerHTML = "Yah i can Change HTMl through JavaScript!";
+// }
+// //9
+// var design="“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”"; 
+// alert(design);
+// chapter 2 completed
+
+
+
+// //CHAPTER:3
+// //1
+// var age=20;
+// alert("I am "+age+" years old");
+// //2
+// var vtime=10;
+// alert("You have visited "+vtime+" times our site");
+// //3
+// var birthyear="1999";
+// function myage(){
+// document.getElementById("by").innerHTML="My birth Yerar is "+birthyear+"\n Hello!";
+// }
+
+
+
+// CHAPTER 4:
+// 1:
+// var name = "Rabat", userName = "user58", age = 23;
+// 2:
+// ILLEGAL: 3RAB, VA R, %VAR ,*VAR,(VAR
+// LLEGA;: VAR, RABAT,MANGO,APPLE,TREE;
+
+
+// CHAPTER 5:
+// 1:
+// var a=9;
+// var b=3;
+// var c= a+b;
+// console.log("The Sum of"+ a+"and"+ b+" is"+ c );
+// 2:
+// var c2=a*b, c3=a/b, c4=a%b,c1=a-b;
+// console.log("The sub of"+ a+"and"+ b+" is"+ c1 );
+// console.log("The mul of"+ a+"and"+ b+" is"+ c2 );
+// console.log("The div of"+ a+"and"+ b+" is"+ c3 );
+// console.log("The mod of"+ a+"and"+ b+" is"+ c4 );
+// 3:
+// var rab="";
+// console.log(rab);
+// rab=5;
+// console.log("The initial value is "+ rab);
+// rab++;
+// console.log("The variable after increment is "+ rab);
+// rab=rab+7;
+// console.log("The value after addition is "+ rab);
+// rab--;
+// console.log("The variable after decrement is "+ rab);
+// rab=rab%3;
+// console.log("The remainder is "+ rab);
+// 4:
+// var cost=600;
+// var quant=5;
+// console.log("Total cost to buy"+ quant+" tickets is "+(quant*cost));
+// 5:
+// var table=4;
+//   var final;
+// for(var i=1;i<=10;i++){
+//  final += "\n"+table+" *"+ i+" ="+ table*i;
+// }
+// console.log(final);
+// 6:
+// var celsius=27;
+// var fahrenhite=32;
+// var celconntofah=(celsius*(9/5))+32;
+// var fehconntocel=(fahrenhite-32)*(5/9);
+// console.log(celcius+" is eqaul to fahrenhite "+ celconntofah);
+// console.log(fahrenhite+" is eqaul to celsius "+ fehconntocel);
+// 7:
+
+// var iten1=prompt("Enter The price 1");
+// var item2=prompt("Enter The price 2");
+// var qu1=prompt("Enter quantity 1");
+// var qu2=prompt("Enter quantity 2");
+// var ship=(item2*qu2)+(iten1*qu1);
+// console.log("Price of item 1 is "+iten1);
+// console.log("Price of item 2 is "+item2);
+// console.log("Quantity of item 1 is "+qu1);
+// console.log("Quantity of item 2 is "+qu2);
+// console.log("Total charger is  "+ship);
+// 8:
+// var marks=100;
+// var stumarks=prompt("Enter The marks you obtaines out of 100");
+// var per=(stumarks/marks*100);
+// console.log("The percentage is "+ per+" %");
+// document.getElementById("marksheet").innerHTML="Total marks is "+marks+"\nMarks obtained is "+stumarks+"\nThe percentage is "+ per+" %";
+// 9:
+// var usa=10;
+//   var riyal=25;
+//   var pak=(usa*104.80)+(riyal*28);
+// alert("Total currency in Pakistan is "+pak);
+// 10:
+//   var num=5;
+//   console.log(num+5*10/2);
+//   11:
+  
+//   var cury=prompt("Enter current year");
+//   var birthy=prompt("Enter birth year");
+//   var agee=(cury-birthy);
+//   alert("Your age is "+agee);
+//   12:
+//   var radius=10;
+//   var pi=3.142;
+//   var area=pi* Math.pow(radius,2);
+//   var circumference=2*pi*radius;
+//   console.log("The circumference is "+circumference+"\nThe Area is : "+area);
+//   13:
+//   var fav="chillz";
+//   var cuage=15;
+//   var esage=65;
+//   var amsn=3;
+//   var need=(esage-cuage)*3;
+//   console.log("Your favourite item is "+fav);
+//   console.log("Your current age is "+cuage);
+//   console.log("Your estimated age is "+esage);
+//   console.log("Amount of snaks per day "+amsn);
+//   console.log("You will need "+need+" chocolates until your ripe age old "+esage);
+
+
+
+// CHAPTER 6-10:
+// 1:
+// var inc=10;
+//   console.log("The value of variable is "+inc);
+//   console.log("The value of ++a is "+(++inc));
+//   console.log("The value is  "+inc);
+//   console.log("The value of a++ is "+(inc++));
+//   console.log("The value is  "+inc);
+//   console.log("The value of --a is "+(--inc));
+//   console.log("The value is  "+inc);
+//   console.log("The value of a-- is "+(inc--));
+//   console.log("The value is  "+inc);
+//   2:
+//    var a1=2;
+//   var b1=1;
+//   var result1=--a1 - --b1 + ++b1 + b1--;
+//   console.log(result1);
+//   console.log(--a1);
+//   console.log(--a1 - --b1);
+//   console.log(--a1 - --b1 + ++b1);
+//   console.log(--a1 - --b1 + ++b1 + b1--); 
+//   3:
+//   var goodnamme=prompt("Enter name");
+//   alert("Hello "+goodnamme);
+//   4:
+//   var ab=prompt("Enter The number you want to show table");
+//   if(ab==null);{
+//     ab=5;
+//   }
+//   var final1;
+// for(var i=1;i<=10;i++){
+//  final1 += "\n"+ab+" *"+ i+" ="+ ab*i;
+// }
+// console.log(final1);
+// 5:
+//   var sub1=prompt("Enter subject1 name");
+//   var sub2=prompt("Enter subject2 name");
+//   var sub3=prompt("Enter subject3 name");
+//   var mar1=prompt("Enter marks obtained in subject 1");
+//   var mar2=prompt("Enter marks obtained in subject 2");
+//   var mar3=prompt("Enter marks obtained in subject 3");
+//   var tot=100;
+// document.getElementById("sb1").innerHTML=sub1;
+// document.getElementById("sb2").innerHTML=sub2;
+// document.getElementById("sb3").innerHTML=sub3;
+// document.getElementById("m1").innerHTML=mar1;
+// document.getElementById("m2").innerHTML=mar2;
+// document.getElementById("m3").innerHTML=mar3;
+// var per1=mar1/tot*100;
+// var per2=mar2/tot*100;
+// var per3=mar3/tot*100;
+// document.getElementById("pr1").innerHTML=per1;
+// document.getElementById("pr2").innerHTML=per2;
+// document.getElementById("pr3").innerHTML=per3;
+// document.getElementById("t1").innerHTML=tot;
+// document.getElementById("t2").innerHTML=tot;
+// document.getElementById("t3").innerHTML=tot;
+
+
+
+// CHAPTER 9-11:
+// 1:
+// var city=prompt("Enter city name");
+// city=city.toLowerCase();
+// if(city=="karachi"){
+//   alert("Welcome to city of lights");
+// }
+// else{
+//   alert("Other city then karachi");
+// }
+// 2:
+
+// var gen=prompt("Enter your gender");
+// gen=gen.toLowerCase();
+// if(gen=="male"){
+//   alert("Welcome Sir");
+// }
+// else if(gen=="female"){
+//   alert("Welcome ma'am");
+// }
+// 3:
+// var color=prompt("Enter traffic light color");
+// color=color.toLowerCase();
+// if(color=="red"){
+//   alert("Must Stop");
+// }
+// else if(color=="green"){
+//   alert("Move now");
+// }
+// else if(color=="yellow"){
+//   alert("Ready to move");
+// }
+// else{
+//   alert("Invalid color");
+// }
+// 4:
+// var petrol=prompt("Enter the amount of petrol in liter");
+
+// if(petrol<=0.25){
+//   alert("Please refill the fuel in the car");
+// }
+// else{
+//   alert("Enough petrol");
+// }
+// 5:
+// var a = 4; 
+//   //a
+//   if (++a === 5){ alert("given condition for variable a is true"); } 
+//   //b
+//   var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); } 
+//   //c
+//   var c = 12; if (c++ === 13){ alert("condition 1 is true"); } if (c === 13){ alert("condition 2 is true"); } if (++c < 14){ alert("condition 3 is true"); } if(c === 14){ alert("condition 4 is true"); } 
+//   //d
+//   var materialCost = 20000; var laborCost = 2000; var totalCost = materialCost + laborCost; if (totalCost === laborCost + materialCost){ alert("The cost equals"); } 
+//   //e
+//   if (true){ alert("True"); } if (false){ alert("False"); } 
+//   //f
+//   if("car" < "cat"){ alert("car is smaller than cat"); } 
+ 
+// 6:
+// var mar1a=prompt("Enter marks obtained in subject 1");
+//   var mar2a=prompt("Enter marks obtained in subject 2");
+//   var mar3a=prompt("Enter marks obtained in subject 3");
+//   var tota=300;
+//   var mrkob=+(mar1a)+(+mar2a)+(+mar3a);
+// var pera=mrkob/tota*100;
+// if(pera>=80){
+  
+//   console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+//   console.log("Grade :   A one \nRemarks : Excellent");
+//   }
+// else if(pera>=70){
+//   console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+//   console.log("Grade :   A   \nRemarks :  Good");
+  
+//  }
+// else if(pera>=60){
+  
+//   console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+//   console.log("Grade :   B \nRemarks : You need to improve");
+//   }
+//   else{
+//     console.log("Total Marks :   "+ tota +"\nMarks Obtained :  "+mrkob+"\nPercentage :   "+pera);
+  
+//   console.log("Grade :   Fail \nRemarks : Fail");
+  
+//   }
+// 7:
+// var secret=7;
+// var guess=+prompt("Enter guess");
+// if(secret==guess){
+//   alert("Bingo");
+// }
+// else if(secret=guess+1 || secret==guess-1){
+//   alert("Close enough");
+// }
+// 8:
+// var secret=7;
+// var guess=+prompt("Enter guess");
+// if(secret==guess){
+//   alert("Bingo");
+// }
+// else if(secret==guess+1 || secret==guess-1){
+//   alert("Close enough");
+// }
+// else{
+//   alert("wrong");
+// }
+// 9:
+// var thrdiv=prompt("enter number");
+//   if(thrdiv%3==0){
+//     alert("Divisile by 3");
+//   }
+//   if(thrdiv%3!=0){
+//     alert("Not divisile by 3");
+//   }
+//   10:
+//   var twodiv=prompt("enter number");
+//   if(twodiv%2==0){
+//     alert("Even");
+//   }
+//   if(twodiv%2!=0){
+//     alert("Odd");
+//   }
+//   11:
+//   var temp1=prompt(Enter temperature in degree celcius);
+//   if(temp1>40){
+//     alert("Weather is Too hot");
+//   }
+//   else if(temp1>30){
+//     alert("Weather is normal");
+//   }
+//    else if(temp1>20){
+//     alert("Weather is cold");
+//   } 
+//   else if(temp1>10){
+//     alert("OMG! Weather is Too cold");
+//   }
+//   12:
+//   var fi=+prompt("Enter 1st No.");
+//   var sc=+prompt("Enter 2nd No.");
+//   var op=prompt("Enter operation");
+//   if (op=="+"){
+//     alert("the sum is :"+ ((+fi)+(+sc)));
+//   }
+//   if (op=="*"){
+//     alert("the multiplication ans is :"+ fi*sc);
+//   }
+//   if (op=="-"){
+//     alert("the subtraction ans is :"+ (fi-sc));
+//   }
+//   if (op=="/"){
+//     alert("the division ans is :"+ (fi/sc));
+//   }
+//   if (op=="%"){
+//     alert("the remainder is :"+ (fi%sc));
+//   }
+
+
+
+// CHAPTER 12-13:
+// 1:
+//   var cho= prompt("Enter any thing 1 character ");
+//   cho=cho.charCodeAt();
+// if(cho>=65&&cho<=90){
+//   alert("Capital letter You enterd");
+
+// }
+// else if(cho>=97&&cho<=122){
+//   alert("Small letter You enterd");
+  
+// }
+// else {
+//   alert("You entered any special character or digit");
+// }
+// 2:
+// var fb= +prompt("Enter the first number");
+
+// var sb= +prompt("Enter the second number");
+// if(fb>sb){
+//   alert("The greator number  is "+fb);
+// }
+// else if(fb<sb){
+//   alert("The greator number  is "+sb);
+// }
+// else{
+//   alert("equal")
+// }
+// 3:
+//  var fb1= +prompt("Enter the number");
+
+// if(fb1>0){
+//   alert("The number is positive");
+// }
+// else if(fb1<0){
+//   alert("The number is negative ");
+// }
+// else{
+//   alert("The number is zero")
+// }
+// 4:
+// var fb2= prompt("Enter the character");
+//   fb2=fb2.toLowerCase();
+//   if(fb2=='a'||fb2=='e'||fb2=='i'||fb2=='o'||fb2=='u'){
+//     alert("Vowel character");
+//   }
+//   else{
+//     alert("Not a vowel");
+//   }
+// 5:
+// var pass= prompt("Enter the password");
+// var pass1= prompt("Reenter your password");
+// if(pass==""||pass1=="")
+// {
+//   alert("You didn't enter the password");
+// }
+// else if(pass1==pass){
+//   alert("Your password match You record has successfully added");
+
+// }
+// else if(pass != pass1){
+//   alert("Your password not match");
+  
+// }
+// 6:
+// var greeting; 
+// var hour = 13; 
+// if (hour < 18) {
+//    greeting = "Good day";
+//    alert(greeting);
+// }
+//  else {
+//    greeting = "Good evening";
+// alert(greeting);
+//  } 
+//  7:
+//    var hrs= +prompt("Enter time in 24 hours");
+//   if(hrs>=0&&hrs<12)
+//   {
+//     alert("Good morning");
+//   }
+//   else if(hrs>=12&&hrs<17)
+//   {
+//     alert("Good Afternoon");
+//   }
+//   else if(hrs>=17&&hrs<21)
+//   {
+//     alert("Good Evening");
+//   }
+//   else if (hrs>=21&&hrs<25)
+//   {
+//     alert("Good night");
+//   }
+
+
+
+// CHAPTER 14-16:
+// 1
+// var name=[];
+// 2:
+// var fruits = new Array();
+// 3:
+// var strarr=["Rabat","Shahid","Madiha"];
+// 4:
+// var numarr=[2,4,6,9];
+// 5:
+// var booarr=[true,false];
+// 6:
+// var mxarr=["Rabat",4,false];
+//   alert(mxarr);
+//   7:
+//   var eduarr=['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M. Phil.', 'PhD'];
+//   var adar="";
+//   for(var i=0;i<eduarr.length;i++)
+//   {
+//     adar += i+1+") "+eduarr[i]+"\n";
+//   }
+//   alert(adar);
+// 8:
+// var naar=["rabat","Ali","Aiza"];
+// var smar=[400,450,390];
+// var art=500;
+// var obar="";
+// for(i=0;i<smar.length;i++)
+// {
+//   var pera=smar[i]/art*100;
+// obar +=alert("The marks obtanied by "+naar[i]+" is"+smar[i]+" Percentage is "+pera);
+// }
+// 9:
+// var colarr=["red","blue","green","yello","black"];
+// console.log(colarr);
+// var coch=prompt("Which color you want to add in beginning");
+// colarr.unshift(coch);
+// console.log(colarr);
+// var coch=prompt("Which color you want to add in end");
+// colarr.push(coch);
+// console.log(colarr);
+// colarr.unshift("lightgreen","lightyello");
+// console.log(colarr);
+// colarr.shift();
+// console.log(colarr);
+// colarr.pop();
+// console.log(colarr);
+// var cochin= +prompt("Which index you want to add color");
+// var coch=prompt("Which color you want to add ");
+// colarr.splice(cochin+1, 0, coch);
+// console.log(colarr);
+// var cochin= +prompt("Which index you want to delete color");
+// var coch= +prompt("How many colors you want to delete ");
+// colarr.splice(cochin-1, coch);
+// console.log(colarr);
+// 10:
+// var sco=[73,560,235,356,23];
+// console.log("Students scores" +sco);
+// sco.sort();
+// var ii=sco.sort(function(a, b){return a-b});
+// console.log("Sorted array "+ii);
+
+// 11:
+// var cities=["Karachi","Lahore","Peshawar","Multan","Muree"];
+// var selectedcity=[];
+// var it=+prompt("how much do you want to copy");
+// for (var i=0;i<it;i++) {
+// 	selectedcity.push(cities[i]);
+// }
+
+// console.log(selectedcity);
+// 12:
+
+//   var arr11 = ["This", "is", "my ", "cat"]; 
+//   console.log(arr11);
+  
+//   console.log(arr11.join(" "));
+//   13:
+//   var fifo=[];
+//    var aa="";
+//    fifo.push("Mouse");
+//   fifo.push("kEYBOARD");
+//    fifo.push("Monitor");
+//    console.log(fifo);
+//    for(i=0;i<=fifo.length+1;i++){
+//      aa +=i+1+" out is "+fifo.shift()+"\n";
+//    }
+//    console.log(aa);
+//    14:
+//    var fifoa=[];
+//   var aaa="";
+//   fifoa.push("Mouse");
+//   fifoa.push("kEYBOARD");
+//   fifoa.push("Monitor");
+//   console.log(fifoa);
+//   for(i=0;i<=fifoa.length+1;i++){
+//     aaa +=i+1+" out is "+fifoa.pop()+"\n";
+//   }
+//   console.log(aaa);
+// 15:
+
+//   var fru=['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony' , 'Haier'];
+//   document.write(fru); 
+
+
+
+//  CHAPTER 17-20
+//  1:
+//  var ma=[];
+ 
+//  2:
+//   var ma1="";
+//   var maa=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+//   for (var x=0;x<3;x++){
+//     for (var y=0;y<4;y++){
+//        ma1 += " "+maa[x][y];
+//     }
+    
+//     console.log(ma1 +"\n");
+//     ma1="";
+//   }
+//   3:
+//   for (var c=1;c<=10;c++){
+//     console.log("\n"+c);
+//   }
+//   4:
+//   var table1=prompt("Which no. table you want to learn");
+//   var final1;
+//   var cco=prompt("Tell the length");
+// for(var i=1;i<=cco;i++){
+//  final1 += "\n"+table1+" *"+ i+" ="+ table1*i;
+// }
+// console.log(final1);
+// 5:
+// var fruit=["apple","mango","cherry","orange","peach"];
+//   for (var i=0;i<fruit.length;i++)
+//   {
+//     console.log("Elemet at index"+[i]+" is"fruit[i]+"\n");
+//   }
+//   6:
+// for (var c=1;c<=10;c++){
+//     console.log(c);
+//   }
+//   for (var c=10;c>=1;c--){
+//     console.log(c);
+//   }
+//   for (var i=0;i<=20;i++){
+//     if(i%2==0){
+//       console.log(i);
+//     }
+//   }
+//   for (var i=0;i<=20;i++){
+//     if(i%2!=0){
+//       console.log(i);
+//     }
+//   }
+//   for (var i=0;i<=20;i++){
+//     if(i%2==0){
+//       console.log(i+"k");
+//     }
+//   }
+//   7:
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+//    var uss=prompt("Enter your choice");
+//    uss=uss.toLowerCase();
+//    var bee="";
+//    for(var ii=0;ii<A.length ;ii++)
+//    {
+//      if(uss==A[ii]){
+// console.log(uss+" is available");
+// break;
+//      }
+//      else{
+//         bee="no";
+//      }
+//    }
+//    if(bee=="no")
+//    {
+//      console.log("Product is not available");
+//    }
+//   8:
+// var maxx=[23,56,98,23,56,32,54,36];
+// var temp=0;
+// for(var i=0;i<maxx.length;i++){
+//   if(maxx[i]>temp)
+//   {
+//     temp=maxx[i];
+
+//   }
+  
+// }
+// console.log(temp);
+//   9:
+//   var maxx=[23,56,98,13,56,32,54,36];
+// var temp=0;
+// for(var i=0;i<maxx.length;i++){
+//   if(maxx[i]>temp)
+//   {
+//     temp=maxx[i];
+   
+//   }
+// }
+// for(var i=0;i<maxx.length;i++){
+//   if(maxx[i]<temp)
+//   {
+//     temp=maxx[i];
+   
+//   }
+// }
+// console.log(temp);
+
+// 10:
+
+//   for (var i=0;i<=100;i++){
+//     if(i%5==0){
+//       console.log(i);
+//     }
+//   }
+
+
+
+
+//chapter 21-38
+  //CHAPTER 21-25:
+//1:
+// in1=prompt("Enter your first name");
+// var in2=prompt("<br>"+"Enter your second name");
+// var rezult=in1+" "+in2;
+// document.write(rezult);
+// //2:
+// var in3=prompt("Enter your favourite mobile name");
+// document.write("<br>"+"Your favourite mobile name has "+in3.length+ " Characters");
+// //3:
+// var in4="Pakistani";
+// document.write("<br>"+"The char 'n' is present at "+in4.indexOf('n'));
+// //4:
+// var in5="Hello World";
+// document.write("<br>"+"The last index of 'l' is present at "+in5.lastIndexOf("l"));
+// //5:
+// var in6="pakistani";
+// document.write("<br>"+"The element at index 3 present iis : "+in6[3]);
+// //6:
+// in16=prompt("<br>"+"Enter your first name");
+// var in26=prompt("<br>"+"Enter your second name");
+// var rezult6=in16.concat(in26);
+// document.write("<br>"+rezult6);
+//7:
+// var city="Hyderabad";
+// document.write("City : "+ city);
+// document.write("<br>"+"Now after change : "+city.replace("Hyder","Islam"));
+// //8
+// var message = "Ali and Sami are best friends. They play cricket and football together."; 
+//  document.write("<br>"+"Before change:"+"<br>"+message);
+//  document.write("<br>"+"After change:"+"<br>"+ message.split("and").join("&"));
+//  //9:
+//  var string="142";
+//  document.write("<br>"+"String : "+"<br>"+ string+" Type is :"+ typeof(string));
+//  document.write("<br>"+"Number : "+"<br>"+  parseInt(string)+" Type is :"+ typeof(parseInt(string)));
+//  //10:
+//  var in17=prompt("Enter any you want to Capitalize name");
+//  document.write("<br>"+"You typed :  "+in17);
+//  document.write("<br>"+"After operation  :  "+in17.toUpperCase());
+//  //11:
+//  var in18=prompt("Enter any you want to written in title type");
+//  document.write("<br>"+"You typed :  "+in18);
+//  document.write("<br>"+"After operation  :  "+in18.charAt(0).toUpperCase() + in18.substr(1).toLowerCase());
+// // 12:
+// var num=13.56;
+// document.write("<br>"+"Before Operation it is a number :  "+num);
+// var str=num.toString();
+// document.write("<br>"+"After operation it is converted into string :  "+str.split(".").join(""));
+ //13:
+//  var uus=prompt("Enter anything but not special characyer otherwise we will generate error");
+//  for(var i=0;i<uus.length;i++)
+//  {
+//      if(uus[i]=="@" ||uus[i]==","||uus[i]=="!"){
+//          var a="";
+//          alert("You inserted wrong characyers");
+//          break;
+//      }
+//      else
+//      {   a='tt';
+ 
+//     }
+//     }
+//     if(a=="tt")
+//     {
+//         alert("good :)");
+//     }
+//     //14:
+//     var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+//    var uss=prompt("Enter your choice");
+//    uss=uss.toLowerCase();
+//    var bee="";
+//    for(var ii=0;ii<A.length ;ii++)
+//    {
+//      if(uss==A[ii]){
+// alert(uss+" is available");
+// break;
+//      }
+//      else{
+//         bee="no";
+//      }
+//    }
+//    if(bee=="no")
+//    {
+//      alert("Product is not available");
+//    }
+// //15:
+// var pwd=prompt("Enter password should not contain other special character but only numbers and simple character and shouln't start with number and 6 characters long");
+// var code=new Array(pwd.length);
+// var aa="t";
+// for(var i=0;i<pwd.length;i++){
+// code[i]=pwd.charCodeAt(i);
+// }
+// if(code[0]>=48 && code[0]<=57)
+// {
+//         aa="a";
+//     alert("Yoe can not start your password with number");
+// }
+// else if(pwd.length<6)
+// {
+//      aa="a";
+  
+//     alert("Your password lentgh is smaller than 6 characters");
+// }
+// else{
+  
+// for(var i=0;i<pwd.length;i++){
+//     if(code[i]>=0 && code[i]<=31 || code[i]>=58 && code[i]<=64 || code[i]>=91 && code[i]<=96 || code[i]>=123 &&code[i]<=126)
+//     {
+//          aa="a";
+//         alert("Your code has any special character which is not allowed");
+//     }
+//     else
+//     {
+//         a="t";
+//     }
+// }
+
+// }
+// if(a=="t"){
+//     alert("your password is recorded");
+// }
+//16
+// var str = "University of Karachi";
+// var res = str.split("").join("<br>");
+// document.write(res);
+//  //17:
+//  var last=prompt("Enter a word");
+//  var l1=last.charAt(last.length-1);
+//  document.write("<br>"+" Your last entered character in a word is :  "+l1);
+ //18:
+//  function count(main_str, sub_str) 
+//     {
+//     main_str += '';
+//     sub_str += '';
+
+//     if (sub_str.length <= 0) 
+//     {
+//         return main_str.length + 1;
+//     }
+
+//        subStr = sub_str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+//        return (main_str.match(new RegExp(subStr, 'gi')) || []).length;
+//     }
+ 
+// document.write("The appers "+count("The quick brown fox jumps over the lazy dog", 'the')+" times");
+
+
+
+ //CHAPTER26-30:
+ //1:
+//  var num1=prompt("Enter number");
+//  document.write("<br>"+"The number you enterd:  "+ num1);
+//  document.write("<br>"+"The number in rounded form:  "+ Math.round(num1));
+//  document.write("<br>"+"The number in floor form:  "+ Math.floor(num1));
+//  document.write("<br>"+"The number in ceiling form:  "+ Math.ceil(num1));
+//  //2:
+//  var num1n=prompt("Enter negative number");
+//  document.write("<br>"+"The number you enterd:  "+ num1n);
+//  document.write("<br>"+"The number in rounded form:  "+ Math.round(num1n));
+//  document.write("<br>"+"The number in floor form:  "+ Math.floor(num1n));
+//  document.write("<br>"+"The number in ceiling form:  "+ Math.ceil(num1n));
+//  //3:
+//  var numn=prompt("Enter number");
+//  document.write("<br>"+"The number you enterd:  "+ numn);
+//  document.write("<br>"+"The number in absolute form:  "+ Math.abs(numn));
+//  //4
+//  var dice=Math.floor( Math.random() * 7 ) ;
+//  document.write("<br>"+"The Random number of dice is :  "+ dice);
+//  //5:
+//  var ht=Math.floor( Math.random() * 3 ) ;
+// if(ht==1){
+//  document.write("<br>"+"The Random number of coin is:  "+ ht+" :   HEAD");
+// }
+// if(ht==2){
+//  document.write("<br>"+"The Random number of coin is:  "+ ht+" :   TAIL");
+// }
+
+//  //6:
+//  var dice1=Math.floor( Math.random() * 100 ) ;
+//  document.write("<br>"+"The Random number of dice is :  "+ dice1);
+//  //7:
+//  var weight=prompt("Enter your weight");
+//  document.write("<br>"+"The weight you enterd:  "+ parseFloat(weight));
+//  //8:
+//  var secret=Math.floor(Math.random()*11);
+//  var choice=+prompt("Enter your number from 1 to 10");
+//  document.write("<br>The matching number is  :"+secret);
+//  if(secret==parseInt(choice))
+//  {
+//      alert("YEEHH YOU WONN!! :) ");
+//  }
+//  if(secret!=choice)
+//  {
+//      alert("AHH! YOU LOST!! :( ");
+//  }
+
+
+
+//CHAPTER 31-34:
+//1:
+// var date=Date();
+// document.write(date);
+//  //2:
+//  var d = new Date();
+// var month = new Array();
+// month[0] = "January";
+// month[1] = "February";
+// month[2] = "March";
+// month[3] = "April";
+// month[4] = "May";
+// month[5] = "June";
+// month[6] = "July";
+// month[7] = "August";
+// month[8] = "September";
+// month[9] = "October";
+// month[10] = "November";
+// month[11] = "December";
+// var n = month[d.getMonth()];
+//  document.write("<br>"+"The month is  :  "+n);
+//  //3:
+//  var d1 = new Date();
+// var weekday = new Array(7);
+// weekday[0] = "Sun";
+// weekday[1] = "Mon";
+// weekday[2] = "Tue";
+// weekday[3] = "Wed";
+// weekday[4] = "Thu";
+// weekday[5] = "Fri";
+// weekday[6] = "Sat";
+
+// var n1 = weekday[d1.getDay()];
+// document.write("<br>"+"The day is  :  "+n1);
+//  //4:
+//  var d1 = new Date();
+// var weekday = new Array(7);
+// weekday[0] = "Sun";
+// weekday[1] = "Mon";
+// weekday[2] = "Tue";
+// weekday[3] = "Wed";
+// weekday[4] = "Thu";
+// weekday[5] = "Fri";
+// weekday[6] = "Sat";
+
+// var n1 = weekday[d1.getDay()];
+// if(n1=="Sun"|| n1=="Sat")
+// {
+// document.write("<br>"+"The day is  :  "+n1);
+// }
+// //5:
+// var d2 = new Date();
+// var dl=d2.getDate();
+// if(dl<=15)
+// {
+//     alert("Starting 15 days of the month");
+// }
+// else if(dl>=15&&dl<=31)
+// {
+//     alert("Ending 15 days of the month");
+// }
+// ///6:
+// var today = new Date(); 
+// document.write("<br>Current date :  "+today);
+//  var pastyear = new Date("01-01-1970"); 
+//  var dif = (today-pastyear); 
+// var dif = ((dif/1000));
+//      document.write(dif) ;      
+// //7
+// var today = new Date(); 
+// document.write("<br>Current date :  "+today);
+//  var pastyear = new Date("01-01-1970"); 
+//  var dif = (today-pastyear); 
+// var dif = ((dif/1000)/60);
+//      document.write(dif) ;      
+// //8:
+// var dt = new Date();
+//     var h =  dt.getHours(), m = dt.getMinutes();
+//     var _time = (h > 12) ? (h-12 + ':' + m +"<br> It's PM") : (h + ':' + m +"<br> It's AM");
+//     document.write(_time);
+//     //9:
+//     var dd=new Date(new Date().getFullYear(), 11, 31);
+//     document.write("<br>"+dd);
+//     //10:
+//     var ramyear = new Date("04-04-2020"); 
+//     var today = new Date(); 
+//     var diff=today-ramyear;
+//     var Difference_In_Days = Math.round(diff / (1000 * 3600 * 24)); 
+//     document.write("<br> "+Difference_In_Days+"  days have been passed since first ramazxan which was on  :"+ ramyear);
+// //11:
+// var today = new Date(); 
+// document.write("<br>Current date :  "+today);
+//  var pastyear = new Date("01-01-2020"); 
+//  var dif = (today-pastyear); 
+// var dif = ((dif/1000));
+//      document.write("<br>Seconds passed : "+dif) ; 
+//      //12:
+//      var today = new Date(); 
+// document.write("<br>Current date :  "+today);
+//  var pastyear = new Date("01-01-2020"); 
+//  var dif = (today-pastyear); 
+// var dif = ((dif/1000)/60);
+//      document.write("Hours have been passed since 1st mont of 2020  +  "+dif) ;      
+//   //13:
+//   var d = new Date();
+// var pastYear = d.getFullYear() - 100;
+// d.setFullYear(pastYear);
+// document.write("<br>100 years back : "+d); 
+// //14:
+// var age=+prompt("<br>Enter your age ");
+// document.write("<br>Your age is : "+age); 
+
+// var d = new Date();
+//   var n = d.getFullYear()-parseInt(age);
+//   document.write("<br>Your born year is "+n);
+// //15:
+// var cusname="Rabat";
+// var d = new Date();
+// var month = new Array();
+// month[0] = "January";
+// month[1] = "February";
+// month[2] = "March";
+// month[3] = "April";
+// month[4] = "May";
+// month[5] = "June";
+// month[6] = "July";
+// month[7] = "August";
+// month[8] = "September";
+// month[9] = "October";
+// month[10] = "November";
+// month[11] = "December";
+
+// var cm = month[d.getMonth()];
+
+// var units=200;
+
+// var chargesperunit=8;
+
+// var late=700;
+// var normal = units * chargesperunit ;
+
+// var latefee = normal + late;
+// document.write("<br>Your name is :"+cusname);
+// document.write("<br>Month is :  "+cm);
+// document.write("<br>Your units are :  "+units);
+// document.write("<br>Charges per unit : "+chargesperunit);
+// document.write("<br>Net bill is :  "+normal);
+// document.write("<br>Late fee is :  "+late);
+// document.write("<br>After due date :  "+latefee);
+
+
+
+
+// //CHAPTER35-38:
+// //1
+// function date()
+// {
+//     document.write("<br>"+Date());
+// }
+// date();
+// //2:
+// function whole(first,second)
+// {
+//     document.write("<br>"+first+" "+second);
+// }
+// whole("Rabat","Shahid");
+// //3:
+// function sum(first1,second1)
+// {
+//     return first1+second1;
+// }
+// document.write("<br>The sum is :  "+sum(7,4));
+// //4:
+// function add(fir,sec,op)
+// {
+//     switch(op) {
+//   case "+":
+//   document.write("<br>Your addition ans is:  "+ (fir+sec));
+//     break;
+//   case "-":
+//   document.write("<br>Your subtraction ans is:  "+ (fir-sec));
+//      break;
+//     case "*":
+//     document.write("<br>Your multiplication ans is:  "+ (fir*sec));
+//     break;
+//     case "/":
+//     document.write("<br>Your division ans is:  "+ (fir/sec));
+//      break;
+  
+//   default:
+//   document.write("<br>Any wrong value");
+//   }
+
+// }
+// var fir=+prompt("Enter first elememt");
+// var sec=+prompt("Enter second elememt");
+// var op=prompt("Enter operation");
+// add(fir,sec,op);
+// //5:
+// var cho=+prompt("Enter elememt you wish to find out the square");
+// function ch(a)
+// {
+//     return Math.pow(a,2);
+// }
+// document.write("<br>The square of number is :  "+ch(cho));
+// //6:
+// function fact(fac)
+// {
+//     var ans=1;
+// for(var i=1;i<=fac;i++)
+// {
+//      ans = ans*i;
+     
+// }
+// return ans;
+
+// }
+// var fac=+prompt("Enter number u want to calculate factorial");
+// document.write("<br>Favtorial is : "+fact(fac));
+// //7:
+// function counting(str,end)
+// {
+//     for (var i=str;i<=end;i++)
+//     {
+//         document.write("<br>"+i);
+//     }
+// }
+// var str=+prompt("Enter starting point");
+// var end=+prompt("Enter ending number");
+// counting(str,end);
+// //8:
+// function outer(base,perp)
+// {
+//     var hypo;
+//     hypo=sq(base)+sq(perp);
+//     function sq(val)
+//     {
+//         return (val*val);
+
+//     }
+//     hypo=Math.sqrt(hypo);
+//     document.write("<br>The hypotyneous is :  "+hypo);
+
+// }
+// var base=+prompt("Enter base value");
+// var perp=+prompt("Enter perp value");
+// outer(base,perp);
+// //9:
+// function area(wid,hei)
+// {
+//     var area;
+//     return area=wid*hei;
+// }
+// document.write("<br>Argument as value : Ans is "+area(2,4));
+// var wid=4;
+// hei=2;
+// document.write("<br>Argument as variable : Ans is "+area(wid,hei));
+// //10:
+// function palindrome(str) {
+//     var splitString = str.split(""); 
+//     var reverseArray = splitString.reverse(); 
+//     var joinArray = reverseArray.join(""); 
+//     if(str==joinArray)
+//     {
+//         document.write("<br>The word is palindrome");
+//     }
+//     else{
+//         document.write("<br>The word is not palindrome")
+//     }
+// }
+// var che=prompt("Enter word you want to check is palindrome or not");
+//palindrome(che);
+// //11:
+// var ini=prompt("Enter any you want to written in title type");
+//   title(ini);
+//   function title(wr){
+//   document.write("<br>"+"After operation  :  "+wr.charAt(0).toUpperCase() + wr.substr(1).toLowerCase());
+//   }
+// //12:
+// function calculateLength(str) {
+//   var substring = str.split(" ");
+//   var minChar = '';
+//   for (var i = 0; i <= substring.length - 1; i++) {
+//     if (substring[i].length >= minChar.length) {
+//       minChar = substring[i];
+//     }
+//   }
+//   return minChar;
+// }
+// var ee=prompt("Enter the sentence to find out the word of longer length");
+// document.write("<br>The word id :  "+calculateLength(ee));
+// //13:
+// function gfg(s,f) { 
+//             var i = 0, 
+//                 n = 0, 
+//                 j = 0; 
+  
+//             while (true) { 
+//                 j = s.indexOf(f, j); 
+//                 if (j >= 0) { 
+//                     n++; 
+//                     j++; 
+//                 } else 
+//                     break; 
+//             } 
+//               document.write("<br>The word 'o' is occured in string 'Computerdevelopment' "+n+" times");
+//         } 
+//         var g=prompt("Enter string sentence");
+//         var f=prompt("Enter the character you wanna find out no. of times it occur");
+// gfg(g,f);
+// //14:
+// function calcircum(rad)
+// {
+//   document.write("<br>The circumference is :  "+ (2*3.142*rad));
+// }
+// function calarea(rad)
+// {
+//   document.write("<br>The area is :  "+ (3.142*Math.pow(rad,2)));
+// }
+// calcircum(10);
+// calarea(10);
+
+
+
+        //chapter 38 to 44
+        //Qustion 1
+        // var a=prompt("Ebter first value");
+        // var b=prompt("Enter value to which you want to raise your first value");
+        // document.write("Your first value "+a+"<br>The power given "+ b+"<br>The answer is : "+raised(a,b)+"<br>");
+        // function raised(a,b)
+        // {
+        //     var i,val;
+        // val=a;
+        // for(i=1;i<b;i++)
+        // {
+        // val=val*a;
+        // }
+        // return val;
+        // }
+        //question 2:
+        // var year=prompt("Enter year you wanna find is leap or not");
+
+        //    if (year % 400 == 0) {
+        //       document.write(year+" is a leap year.");
+        //    }
+        //    else if (year % 100 == 0) {
+        //       document.write(year+" is not a leap year.");
+        //    }
+        //    else if (year % 4 == 0) {
+        //       document.write(year+" is a leap year.");
+        //    }
+        //    // all other years are not leap year
+        //    else {
+        //       document.write(year+" is not a leap year.");
+        //    }
+//Question 3:
+        // var len1 = 4;
+        // var len2 = 6;
+        // var len3 = 5;
+        // area(len1, len2, len3);
+        // function area(len1, len2, len3) {
+        //     var s = cals(len1, len2, len3);
+        //     var area = s * (s - len1) * (s - len3) * (s - len2);
+        //     document.write("<br>First side length is " + len1 + "<br>Second side length is " + len2 + "<br>Third side length is " + len3 + "<br>The area of triangle is  " + area);
+
+        // }
+        // function cals(len1f, len2f, len3f) {
+        //     var sf = (len1f + len3f + len2f) / 2;
+        //     return sf;
+        // }
+        // //Question 4:
+//         var stdm1=+prompt("Enter marks obtained in 1st subjects out of 100");
+//         var stdm2=+prompt("Enter marks obtained in 2nd subjects out of 100");
+//         var stdm3=+prompt("Enter marks obtained in 3rd subjects out of 100");
+//         mainff(stdm1,stdm2,stdm3);
+//         function mainff(m1,m2,m3){
+// document.write("<br>The average marks are : "+average(m1,m2,m3));
+// document.write("<br>Percentege is : "+percentage(m1,m2,m3));
+
+//         }
+//         function average(ma,mb,mc)
+//         {
+//             return (ma+mb+mc/3);
+//         }
+//         function percentage(ma,mb,mc)
+//         {
+//             return (ma+mb+mc)/300*100;
+//         }
+//Question 5:
+// var stri=prompt("Enter any string");
+// var string=stri.toLowerCase();
+// var find=prompt("Enter wich character's position you wanna find");
+// findindex(string,find);
+// function findindex()
+// {
+//   var a=parseInt(string.indexOf(find));
+//   a=a+1;
+// document.write("<br>"+find+" present at index : "+ a);
+// }
+//Question 6
+//   var s=prompt("Enter sentence");
+//   var r=remove(s);
+  
+//   function remove(str) {             
+//     let newString = " ";                            
+//     for (let i = 0; i < str.length; i++)  
+// {           
+//       if (str[i] != "a" && str[i] != "e" && str[i] != "i" && str[i] != "o" && str[i] != "u")                                   
+//        {           
+//        newString += str[i];         
+//       };   
+//     };   
+//     return newString;   
+//   };  
+//   document.write(r);
+  //Question 7:
+//     var i, found = 0, count = 0;
+
+//     var str=prompt("Enter string");
+    
+//     for (i = 0; i <str.length; i++)
+//     { var aa=isVowel(str[i]);
+//         if (aa)
+//         {
+//             found++;
+//         }
+//         else
+//         {
+//             found = 0;
+//         }
+
+//         if (found == 2)
+//         {
+//             document.write( str[i - 1]+"  "+str[i]);
+//             found = 1;
+//             count++;
+//         }
+//     }
+
+//     document.write("<br>Total number of occurences :"+ count++);
+
+// function isVowel( ch)
+// {
+//     switch(ch)
+//     {
+//         case 'A': 
+//         case 'a': 
+//         case 'E':  
+//         case 'e':
+//         case 'I':
+//         case 'i':
+//         case 'O':
+//         case 'o':
+//         case 'U':
+//         case 'u':
+//             return 1;
+//         default:
+//             return 0;
+//     }
+// }
+//Question 8
+// var distance=prompt("Enter distance in KM");
+// document.write("<br>"+distance+" in meters ="+ meter(distance));
+// document.write("<br>"+distance+" in centimeters ="+ centimeter(distance))
+// document.write("<br>"+distance+" in foots ="+ foot(distance))
+// document.write("<br>"+distance+" in inches ="+ inches(distance))
+
+// function meter(km)
+// {
+//     return km*1000;
+// }
+// function centimeter(km)
+// {
+//     return km*100000;
+// }
+
+// function foot(km)
+// {
+//     return km*3280.84;
+// }
+// function inches(km)
+// {
+//     return km*39370.1;
+// }
+//Question 9:
+// var overtime=prompt("Enter the overtime you worked in hours ");
+// document.write("<br>Yoour overtime earnings are : "+calovertime(overtime)+" Rs");
+// function calovertime(overtime)
+// {
+// return overtime*12;
+// }
+//Qustion 10:
+// var hundred=0,fifty=0,ten=0,a=0;
+// var currency=+prompt("Enter amount you want to be withdraw");
+// document.write("<br>You Entered : "+currency);
+
+// for (var i=1; i<= currency;i++)
+// {
+//     if(currency>100)
+//     {
+// hundred++;
+// currency=currency-100;
+//     }
+//     else if(currency>=50 && currency<100 && currency>=10)
+//     {
+// fifty++;
+//  currency=currency-50;
+//     }
+//     else if(currency>=10&&currency<50)
+//     {
+//         currency=currency-10;
+// ten++;
+//     }
+//     else
+//     {
+//         currency=currency-currency;
+//     }
+    
+// }
+// document.write("<br>rupees given : "+currency);
+// document.write("<br>Hundred notes given : "+hundred);
+// document.write("<br>Fifty notes given : "+fifty);
+// document.write("<br>Ten notes given : "+ten);
+
+
+//chapter 43-48:
+// Question # 1,2
+
+
+// document.body.innerHTML = (`
+// <h2>Select Tours</h2>
+// <div>
+//     <img src="pictures/abbotabad1.jpg">
+//     <img src="pictures/Abbottabad.jpg">
+//     <img src="pictures/gilgit.jpg">
+//     <img src="pictures/chitral2.jpg">
+// </div>
+
+// `)
+
+// var images = document.getElementsByTagName('img');
+
+// for (var i=0; i <=3 ; i++)
+// {
+//     images[i].addEventListener("click",message);
+// }
+
+// function message()
+// {
+//     alert("Thankyou for booking tour from us")
+// }
+// // Question # 3
+
+// const dictionary = {0:["Rabat",34],
+//                1:["sariya",98] ,
+//                2:["ambeera",100],
+//                3:["abdulah",67],
+//                4:["shahif",80],
+//                5:["maria",98] ,
+//                6:["aisha",70],
+//                7:["fazal",67],
+//                8:["ali",58] ,
+//                9:["ghous",10]}
+
+// var t = document.getElementsByTagName('table');
+// var index = 0;
+// var buttons = document.getElementsByTagName('button');
+// table();
+// function table()
+// {
+//     document.body.innerHTML = (`
+//         <table width="400" cellpadding="10" cellspacing="5">
+//             <tr>
+//                 <td>Index</td>
+//                 <td>Name</td>
+//                 <td>Marks</td>
+//             </tr>
+//         </table>
+//     `)
+//     for(let prop in dictionary) 
+//     {
+//        t[0].innerHTML += (`
+//        <tr>
+//        <td>${index}</td>
+//         <td>${dict[prop][0]}</td>
+//         <td>${dict[prop][1]}</td>
+//        <td><button value=${prop}>Delete</button></td>
+//        </tr>`)
+//        index++;
+//     }
+//     for (const but of buttons)
+//     {
+//         but.addEventListener("click",Delete);
+//     }
+    
+// }
+
+// function Delete()
+// {
+
+//     for(let propoo in dict) 
+//     {
+//         if (propoo == this.value)
+//         {
+//            delete dict[propoo];
+//         }
+//     }
+//     index = 0;
+//     table()
+// }
+
+// // Question # 4
+// document.body.innerHTML = (`
+
+// <div>
+//     <img src="pictures/abbotabad1.jpg" onMouseover="src='pictures/pic4.jpg'"  onMouseout="src='pictures/pic1.jpg'">
+    
+// </div>
+
+// `)
+
+// // Question# 5
+
+// var countt = 0;
+
+// document.body.innerHTML = (
+// `
+//  <div>${countt}</div>
+//  <button onClick="increasevalue();">+</button><br>
+//  <button onClick="decreasevalue();">-</button>
+// `
+// )
+// var number = document.getElementsByTagName('div');
+// function increasevalue()
+// {
+    
+//     number[0].innerText = ++countt;
+// }
+// function decreasevalue()
+// {
+//      number[0].innerText = --countt;
+// }
+
+
+
+
+//Chapter 49-52:
+// Question # 1
+
+// document.body.innerHTML = (`
+// <form>
+// <p>Username:
+//  <input type="email" name="email" size="15"
+//  maxlength="30" />
+// </p>
+// <p>Password:
+//  <input type="password" name="password" size="15"
+//  maxlength="30" />
+// </p>
+// <button type="submit">Sign UP</button>
+// </form>
+// `);
+
+// var submit = document.getElementsByTagName("button");
+// var inputs = document.getElementsByTagName("input");
+// submit[0].addEventListener("click",showData);
+// function showData()
+// {
+//    var email = inputs[0].value;
+//    var password = inputs[1].value;
+//     document.body.innerHTML = (
+//         `
+//         <p>Your email</p>
+//         <p>${email}</p>
+//         <p>Your password</p>
+//         <p>${password}</p>
+//         `
+//     )
+
+// }
+// // Question # 2
+
+// var val = [1,2]
+
+// document.body.innerHTML =(
+// `
+// <div>
+// <div>
+//     <img src='pictures/chitral2.jpg'>
+//     <p>Gorakh hills</p>
+//     <div id="first" style="display:none">
+//         <p>Price to tour is 20,000</p>
+//         <p>Members allowed are 4</p>
+//     </div>
+//     <button value=${val[0]}>More details</button>
+// </div>
+// <div>
+//    <img src='pictures/chitral2.jpg'>
+//    <p>Murree</p>
+//    <div id="second" style="display:none">
+//         <p>Price to tour is 40,000</p>
+//         <p>Members allowed are 3</p>
+//     </div>
+//    <button value=${val[1]}>More details</button>
+// </div>
+// </div>
+
+// `
+// )
+// var first = document.getElementById('first');
+// var second = document.getElementById('second');
+
+// var buttons = document.getElementsByTagName('button');
+// for (const b of buttons)
+// {
+//     b.addEventListener("click",Details);
+// } 
+
+// function Details()
+// {
+//     if(this.value == 1)
+//   {
+//     first.style.display = 'block'
+//   }
+//   else if(this.value ==2)
+//   {
+//     second.style.display = 'block'
+//   }
+// }
+
+
+// // Question # 3
+
+// const dict = {0:["Rabat",34],
+//                1:["Shahid",98] ,
+//                2:["Madihaa",100],
+//                3:["Osama",67],
+//                4:["Nosheen",80],
+//                5:["Ahmar",98] ,
+//                6:["Minaal",70],
+//                7:["huzaifa",67],
+//                8:["Umer",58] ,
+//                9:["abid",10]}
+
+// var t = document.getElementsByTagName('table');
+// var index = 0;
+// var buttons = document.getElementsByTagName('button');
+// Make_table()
+
+
+// function Make_table()
+// {
+//     document.body.innerHTML = (`
+//         <table width="400" cellpadding="10" cellspacing="5">
+//             <tr>
+//                 <td>Index</td>
+//                 <td>Name</td>
+//                 <td>Marks</td>
+//             </tr>
+//         </table>
+//     `)
+//     for(let propoo in dict) 
+//     {
+//        t[0].innerHTML += (`
+//        <tr>
+//        <td>${index}</td>
+//         <td>${dict[propoo][0]}</td>
+//         <td>${dict[propoo][1]}</td>
+//        <td><button value=${propoo}>Delete</button></td>
+//        <td><button value=${propoo}>Edit</button></td>
+//        </tr>`)
+//        index++;
+//     }
+//     var buttons = document.getElementsByTagName('button');
+//      for (var i=0; i <20 ;i++)
+//      {
+//          if(i % 2==0)
+//          {
+//             buttons[i].addEventListener("click",Delete);
+//          }
+//          else{
+//             buttons[i].addEventListener("click",Edit);
+//          }
+        
+        
+//      }
+    
+// }
+
+// function Delete()
+// {
+//     for(let propoo in dict) 
+//     {
+//         if (propoo == this.value)
+//         {
+//            delete dict[propoo];
+//         }
+//     }
+//     index = 0;
+//     Make_table()
+// }
+
+// function Edit()
+// {
+//     const val = this.value;
+//     document.body.innerHTML = (`
+//     <form>
+//     <p>Edit student Name:
+//     <input type="text"  size="15"
+//     maxlength="30" />
+//     </p>
+//     <p>Edit student Marks:
+//     <input type="number" size="15"
+//     maxlength="30" />
+//     </p>
+//     <button type="submit">edit</button>
+//     </form>
+//   `);
+//   var inputs = document.getElementsByTagName("input");
+//   var submit = document.getElementsByTagName("button");
+//   submit[0].addEventListener("click",changeData);
+
+//   function changeData()
+//   {
+//     for(let prop in dict) 
+//     {
+//         if (prop == val)
+//         {
+//           dict[prop] = [inputs[0].value, inputs[1].value]
+//         }
+//     }
+//     index = 0;
+//     Make_table()
+
+//   }
+
+
+//chapter 53-58
+//question 1
+// function showlargepic(source)
+// {
+//   document.getElementById("gd").style.display="block";
+// document.getElementById("gg").src=source;
+// }
+//Q:2
+// function bigsize()
+// {
+//     txt = document.getElementById('big');
+//     style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+//     currentSize = parseFloat(style);
+//     txt.style.fontSize = (currentSize + 10) + 'px';
+
+// }
+// function smallsize()
+// {
+//   txt = document.getElementById('big');
+//     style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+//     currentSize = parseFloat(style);
+//     txt.style.fontSize = (currentSize - 10) + 'px';
+
+// }
+
+
+
+//    //chapter 58-67
+//    document.body.innerHTML=(
+//     `
+// <div>
+// <h1> DOM </h1>
+// <div id="form-content" class="content">
+// <label for="first-name">First Name</label>
+// <input type="text" id="first-name" />
+// <label for="last-name">Last Name</label>
+// <input type="text" id="last-name" />
+// <label for="email">Email</label>
+// <input type="text" id="email" />
+// </div>
+// <div id="main-content" class="content">
+// <p class="rend"> First Name : Alex</p>
+// <p class="rend" id="lastName">Last Name: Bank</p>
+// <p class="rend"> Email : alexbank@example.com</p>
+// <p class="rend"> Country : Pakistan </p>
+// <p class="rend"> contact : +92 300 1234567</p>
+// </div>
+// </div>
+//     `
+// )
+// // Question # 1
+
+// var main = document.getElementById("main-content");
+// var child1 = main.childNodes[1]
+// var child2 = main.childNodes[3]
+// var child3 = main.childNodes[5]
+// var child4 = main.childNodes[7]
+// var child5 = main.childNodes[9]
+
+// var rend = document.getElementsByClassName('rend');
+// for (const r of rend)
+// {
+//   console.log(r.innerHTML);
+// }
+// rend[0].value = "sara";
+// rend[1].value = "bano"
+// rend[2].value = "sarabano@gmail.com"
+
+// // Question # 2
+// var type = document.getElementById("form-content").nodeType;
+// console.log(type)
+// var type2 = document.getElementById("last-name").nodeType;
+// console.log(type2)
+// var mainContent = document.getElementById("main-content");
+// var firstchild = mainContent.firstChild;
+// var lastchild = mainContent.lastChild;
+// var nextSibling = document.getElementById("last-name").nextSibling;
+// var previousSibling = document.getElementById("last-name").previousSibling;
+// var emailParent = document.getElementById("email").parentNode;
+// var typeEmail = document.getElementById("email").nodeType;
+
+// }
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+    <!--chapter 1-20 HTML PART
+     <div style="text-align: center;"></div>
+    <h1>JavaScript Assignment</h1>
+    <h3>Roll No : WM 9410</h3>
+    <p id="pa1" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+    <p id="by"  onclick="myage()">Click me to know my birth year.</p>
+<p id="sh"></p>
+<h1>Marksheet</h1>
+<p id="marksheet"></p>
+
+CHAPTER 4 QUE 3-->
+<!--<h2> “Rules for naming JS variables”</h2>
+ <p>  b)  Variable names can only contain ',' , $, and numbers, _ . For example $my_1stVariable
+   <br> c) Variables must begin with a letter, _ or $ For example $name, _name or name 
+   <br> d) Variable names are case sensitivve
+   <br> e) Variable names should not be JS keywords   </p>
+</div>
+<table>
+  <tr>
+    <td>Subject</td>
+    <td>Total Marks</td>
+    <td>Obtained Marks</td>
+    <td>Percentage</td>
+  </tr>
+  <tr>
+    <td id="sb1"></td>
+    <td id="t1"></td>
+    <td id="m1"></td>
+    <td id="pr1"></td>
+   
+  </tr>
+
+  <tr>
+    <td id="sb2"></td>
+    <td id="t2"></td>
+    <td id="m2"></td>
+    <td id="pr2"></td>
+   
+  </tr>
+
+  <tr>
+    <td id="sb3"></td>
+    <td id="t3"></td>
+    <td id="m3"></td>
+    <td id="pr3"></td>
+   
+  </tr>
+</table>
+<script>
+    
+    alert("After html body content section Alert");
+    //4
+//chapter 3 4:
+  //var name=prompt("Enter your Name");
+    //var product=prompt("Enter Product Name ");
+    //var qua=prompt("Enter Quantity ");
+    
+   // document.getElementById("sh").innerHTML="Youe Name is "+name+"\nYou Bought "+product+"\nQuantity is "+qua;
+  //chapter 3 completed
+
+</script> 
+-->
+<!--Chapter 53-58 HTML part
+<div style="margin-left: 200px;">
+<div > 
+  <img src="pictures/abbotabad1.jpg" onclick="showlargepic(this.src)" style="width: 200px; height: 200px;">
+  <img src="pictures/Abbottabad.jpg" onclick="showlargepic(this.src)" style="width: 200px; height: 200px;">
+  <img src="pictures/chitral2.jpg" onclick="showlargepic(this.src)" style="width: 200px; height: 200px;">
+  <img src="pictures/gilgit.jpg" onclick="showlargepic(this.src)" style="width: 200px; height: 200px;">
+  
+  </div>
+  <div style="display: none;" id="gd" >
+<img id="gg" style="width: 560px; height: 450px;">
+</div>
+</div>
+<div>
+<p id=big>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Quibusdam sequi dolorum laudantium aliquam ducimus enim odit
+   tempora earum voluptatesaccusantium laboriosam distinctio autem
+ velit dolore in vel sit perferendis?
+</p>
+<button onclick="bigsize()">Increase Font-size</button>
+<button onclick="smallsize()">Decrease Font-size</button>
+
+</div>
+-->
+</body>
+
+</html>
